@@ -10,7 +10,7 @@ using System.Security.Claims;
 namespace MovieTicketBooking.Controllers
 {
     /// <summary>
-    /// 
+    /// Controller to create USer and update existing Password
     /// </summary>
     [Route("api/v1/[controller]")]
     [ApiController]

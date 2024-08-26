@@ -10,35 +10,35 @@ namespace MovieTicketBooking.Data.Models.Entities
     public class Theater
     {
         /// <summary>
-        /// Gets or sets the unique identifier of the theater.
+        /// ID of the theater.
         /// </summary>
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string? Id { get; set; }
 
         /// <summary>
-        /// Gets or sets the name of the theater.
+        /// Name of the theater.
         /// </summary>
         public string? TheaterName { get; set; }
 
         /// <summary>
-        /// Gets or sets the city where the theater is located.
+        /// City where the theater is located.
         /// </summary>
         public string? City { get; set; }
 
         /// <summary>
-        /// Gets or sets the number of available seats in the theater.
+        /// Number of available seats in the theater.
         /// </summary>
         [BsonElement("SeatCount")]
         public int AvailableSeat { get; set; }
 
         /// <summary>
-        /// Gets or sets the date and time when the theater was created.
+        /// Date and time when the theater was created.
         /// </summary>
         public DateTime Created { get; set; }
 
         /// <summary>
-        /// Gets or sets the date and time when the theater was last updated.
+        /// Date and time when the theater was last updated.
         /// </summary>
         public DateTime Updated { get; set; }
     }
@@ -49,12 +49,12 @@ namespace MovieTicketBooking.Data.Models.Entities
     public class TheaterDto
     {
         /// <summary>
-        /// Gets or sets the name of the theater.
+        /// Name of the theater.
         /// </summary>
         public string? TheaterName { get; set; }
 
         /// <summary>
-        /// Gets or sets the city where the theater is located.
+        /// City where the theater is located.
         /// </summary>
         public string? City { get; set; }
     }

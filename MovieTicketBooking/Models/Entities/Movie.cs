@@ -10,44 +10,44 @@ namespace MovieTicketBooking.Data.Models.Entities
     public class Movie
     {
         /// <summary>
-        /// Gets or sets the unique identifier of the movie.
+        /// Unique ID of the movie.
         /// </summary>
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string? Id { get; set; }
 
         /// <summary>
-        /// Gets or sets the name of the movie.
+        /// Name of the movie.
         /// </summary>
         public string? MovieName { get; set; }
 
         /// <summary>
-        /// Gets or sets the URL of the movie poster.
+        /// URL of the movie poster.
         /// </summary>
         public string? MoviePoster { get; set; }
 
         /// <summary>
-        /// Gets or sets the genre of the movie.
+        /// Genre of the movie.
         /// </summary>
         public string? Genre { get; set; }
 
         /// <summary>
-        /// Gets or sets the description of the movie.
+        /// Description of the movie.
         /// </summary>
         public string? Description { get; set; }
 
         /// <summary>
-        /// Gets or sets the languages in which the movie is available.
+        /// Languages in which the movie is available.
         /// </summary>
         public string? Languages { get; set; }
 
         /// <summary>
-        /// Gets or sets the date and time when the movie was created.
+        /// Date and time of creation.
         /// </summary>
         public DateTime Created { get; set; }
 
         /// <summary>
-        /// Gets or sets the date and time when the movie was last updated.
+        /// Date and time when the movie was last updated.
         /// </summary>
         public DateTime Updated { get; set; }
     }

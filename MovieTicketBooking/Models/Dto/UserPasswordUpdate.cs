@@ -6,22 +6,22 @@
     public class UserPasswordUpdate
     {
         /// <summary>
-        /// Gets or sets the username of the user.
+        /// Username of the user.
         /// </summary>
         public string? Username { get; set; }
 
         /// <summary>
-        /// Gets or sets the old password of the user.
+        /// Old password/Existing password of the user require to update new password.
         /// </summary>
         public string? OldPassword { get; set; }
 
         /// <summary>
-        /// Gets or sets the new password of the user.
+        /// New password of the user.
         /// </summary>
         public string? NewPassword { get; set; }
 
         /// <summary>
-        /// Gets or sets the confirmation of the new password.
+        /// Confirm of the new password.
         /// </summary>
         public string? ConfirmPassword { get; set; }
     }

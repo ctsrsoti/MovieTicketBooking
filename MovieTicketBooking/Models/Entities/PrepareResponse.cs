@@ -6,12 +6,12 @@
     public class PrepareResponse
     {
         /// <summary>
-        /// Gets or sets a value indicating whether the preparation was successful.
+        /// Value indicating whether the preparation was successful.
         /// </summary>
         public bool IsSuccess { get; set; }
 
         /// <summary>
-        /// Gets or sets a message providing details about the preparation status.
+        /// Message providing details about the preparation status.
         /// </summary>
         public string? Message { get; set; }
     }

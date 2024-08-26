@@ -14,23 +14,23 @@ namespace MovieTicketBooking.Data.Models.Dto
     public class TicketDto
     {
         /// <summary>
-        /// Gets or sets the number of tickets.
+        /// Number of tickets.
         /// </summary>
         public int TicketsCount { get; set; }
 
         /// <summary>
-        /// Gets or sets the ID of the movie.
+        /// ID of the movie.
         /// </summary>
         [BsonRepresentation(BsonType.ObjectId)]
         public string? MovieId { get; set; }
 
         /// <summary>
-        /// Gets or sets the ID of the theater.
+        /// ID of the theater.
         /// </summary>
         public string? TheaterId { get; set; }
 
         /// <summary>
-        /// Gets or sets the ID of the ticket.
+        /// ID of the ticket.
         /// </summary>
         public string? TicketId { get; set; }
     }
