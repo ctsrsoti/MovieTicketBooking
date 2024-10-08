@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - main
+    - Main
 
 env:
   AZURE_WEBAPP_NAME: MovieTicket
